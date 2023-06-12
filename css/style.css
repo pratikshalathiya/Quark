@@ -1,0 +1,752 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+/* poppins-300 - latin */
+@font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 300;
+     src: url('../fonts/poppins-v20-latin-300.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/poppins-v20-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/poppins-v20-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/poppins-v20-latin-300.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/poppins-v20-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/poppins-v20-latin-300.svg#Poppins') format('svg'); /* Legacy iOS */
+   }
+   /* poppins-regular - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 400;
+     src: url('../fonts/poppins-v20-latin-regular.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/poppins-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/poppins-v20-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+   }
+   /* poppins-500 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 500;
+     src: url('../fonts/poppins-v20-latin-500.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/poppins-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/poppins-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/poppins-v20-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+   }
+   /* poppins-600 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Poppins';
+     font-style: normal;
+     font-weight: 600;
+     src: url('../fonts/poppins-v20-latin-600.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/poppins-v20-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/poppins-v20-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/poppins-v20-latin-600.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/poppins-v20-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/poppins-v20-latin-600.svg#Poppins') format('svg'); /* Legacy iOS */
+   }
+
+   /* martel-sans-300 - latin */
+@font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Martel Sans';
+     font-style: normal;
+     font-weight: 300;
+     src: url('../fonts/martel-sans-v12-latin-300.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/martel-sans-v12-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/martel-sans-v12-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/martel-sans-v12-latin-300.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/martel-sans-v12-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/martel-sans-v12-latin-300.svg#MartelSans') format('svg'); /* Legacy iOS */
+   }
+   /* martel-sans-regular - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Martel Sans';
+     font-style: normal;
+     font-weight: 400;
+     src: url('../fonts/martel-sans-v12-latin-regular.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/martel-sans-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/martel-sans-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/martel-sans-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/martel-sans-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/martel-sans-v12-latin-regular.svg#MartelSans') format('svg'); /* Legacy iOS */
+   }
+   /* martel-sans-600 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Martel Sans';
+     font-style: normal;
+     font-weight: 600;
+     src: url('../fonts/martel-sans-v12-latin-600.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/martel-sans-v12-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/martel-sans-v12-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/martel-sans-v12-latin-600.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/martel-sans-v12-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/martel-sans-v12-latin-600.svg#MartelSans') format('svg'); /* Legacy iOS */
+   }
+   /* martel-sans-700 - latin */
+   @font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Martel Sans';
+     font-style: normal;
+     font-weight: 700;
+     src: url('../fonts/martel-sans-v12-latin-700.eot'); /* IE9 Compat Modes */
+     src: url('../fonts/martel-sans-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('../fonts/martel-sans-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+          url('../fonts/martel-sans-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+          url('../fonts/martel-sans-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('../fonts/martel-sans-v12-latin-700.svg#MartelSans') format('svg'); /* Legacy iOS */
+   }
+
+:root{
+     --nav-txt:#ccc;
+     --title-txt:#0abede;
+     --btn-sky:#0ABEDF;
+     --main-font:#fff;
+     --bg-color:#050225;
+     --body-txt:#9291a0;
+     --fontpoppins: 'Poppins', sans-serif; 
+}   
+
+body{
+     font-family: 'Martel Sans', sans-serif;
+     /* font-family: 'Poppins', sans-serif; */
+     line-height: 28px;
+     color: var();   
+     font-size: 14px;
+     background-color: #a9a9a9;
+
+     overflow: auto;
+     scrollbar-width: thin;
+     scrollbar-color: #888 #f1f1f1;
+}
+a{
+     text-decoration: none;
+}
+ul{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+     margin: 0;
+}
+.spacer{
+     padding-top: 70px;
+     padding-bottom: 70px;
+}
+.spacer-1{
+     padding-top: 70px;
+}
+.row{
+     margin: 0;
+}
+
+.bgBlue{
+     background-color: var(--bg-color);
+     color: var(--main-font);
+}
+.bgWhite{
+     background-color: #fff;
+}
+/* Customize the scroll bar */
+::-webkit-scrollbar {
+     width: 12px;
+   }
+   
+   ::-webkit-scrollbar-track {
+     background: #f1f1f1;
+   }
+   
+   ::-webkit-scrollbar-thumb {
+     /* background: #0ABEDF; */
+     background-image: linear-gradient(to bottom, #0ad6fa, #6ca9b3);
+     border-radius: 12px;
+     border: 2px solid;
+     border-image: linear-gradient(to bottom, #ffffff, #e6e6e6) 1 100%;
+   }
+   
+   ::-webkit-scrollbar-thumb:hover {
+     /* background: #555555; */
+     background-image: linear-gradient(to top, #0ad6fa, #6ca9b3);
+   }
+   
+/* ======================================================
+                         Header                               
+========================================================= */
+#Header{
+     position: fixed;
+     top: 0;
+     width: 100%;
+     height: 90px;
+     background-color: transparent;
+     z-index: 9999;
+     transition: .5s;
+     transition: background-color 0.3s ease;
+}
+#Header.scrolled {
+     background-color: rgba(4, 1, 29, 0.92);
+     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.lap-menu > li > a{
+     color: var(--nav-txt);
+     margin: 0 15px;
+     transition: .4s;
+     font-size: 14px;
+}
+.lap-menu > li:hover > a,
+.lap-menu > li > a.active{
+     color: var(--main-font);
+     text-underline-offset: 10px;
+     text-decoration: 2px underline var(--title-txt);
+}
+.lap-menu > li:nth-child(5) > a{
+     padding-bottom: 40px !important;
+}
+.lap-menu > li:nth-child(8) > a{
+     text-decoration: none;
+}
+.nav-btn{
+     background-color: var(--btn-sky);
+     font-size: 14px;
+     color: var(--main-font) !important;
+     border-radius: 5px;
+}
+
+.lap-menu .sub-menu{
+     /* width: 200px; */
+     display: none;
+     /* position: absolute; */
+     
+     /* top: 100%; */
+     /* left: 0; */
+     background-color: #000;
+     transition: .4s; 
+     border-color: var(--title-txt) !important;
+     /* box-shadow: 3px 3px 3px #000; */
+ }
+.lap-menu .sub-menu li a {
+     display: block;
+     color: #999;
+     font-size: 11px !important;
+     line-height: 35px;
+     padding-left: 15px;
+     padding-right: 100px;
+}
+.lap-menu  li:hover .sub-menu{
+     display: block;
+     border: none;
+}
+.sub-menu li a:hover{
+     color: var(--main-font);
+}
+.tablate-menu{
+     display: none;
+}
+.line{
+     border-bottom:1px solid #999;
+}
+
+/* ======================================================
+                         Main                               
+========================================================= */
+
+/* -----------slider------------- */
+
+#main-banner .owl-stage-outer,
+#main-banner .owl-stage,.owl-item{
+     height: 100vh;
+}
+#main-banner.owl-carousel .owl-item .item,
+#main-banner.owl-carousel .owl-item .item.sec-img,
+#main-banner.owl-carousel .owl-item .item.third-slide{
+     background-image: url(../img/asset\ 9.jpeg);
+     height: 100vh;
+     width: 100%;
+     background-position: bottom;
+     background-position: center center;
+}
+#main-banner.owl-carousel .owl-item .item.sec-slide{
+     background-image: url(../img/asset\ 10.jpeg);
+}
+#main-banner.owl-carousel .owl-item .item.third-slide{
+     background-image: url(../img/asset\ 11.jpeg);
+}
+#main-banner.owl-theme .owl-nav {
+     position: absolute;
+     top: 50%;
+     width: 100%;
+     margin: 0 !important;
+}
+#main-banner .owl-nav .owl-prev,
+#main-banner .owl-nav .owl-next{
+     position: absolute;
+     left: 50px;
+     height: 50px;
+     width: 40px;
+     background: #000;
+     color: #fff;
+     /* border-radius: 50% !important; */
+     font-size: 30px;
+     transform: translateY(-50%);
+}
+#main-banner .owl-nav .owl-next{
+     left: auto;
+     right: 50px;
+}
+.main-banner-txt{
+     overflow: hidden;
+     top: 20%;
+     /* left: 150px; */
+     font-size: 13px;
+     color: var(--nav-txt);
+}
+.main-banner-txt .left-side{
+     z-index: 5;
+     /* width: 70%; */
+     /* text-align: left; */
+     color: #fff;
+     overflow: hidden;
+     padding: 30px;
+}
+.main-banner-txt .left-side .h1{
+     font-size: 51px;
+     color: var(--main-font);
+}
+#main-banner .banner-caption{
+     color: var(--nav-txt);
+}
+.main-banner-txt .left-side a{
+     color: var(--main-font);
+     font-weight: bold;
+     font-family: sans-serif;
+     border: 2px solid;  
+     transition: .3s;
+}
+.main-banner-txt .left-side a:hover{
+     background-color: #fff;
+     color: #767575;
+     border-color: #fff;
+}
+.main-banner-txt .left-side .video-btn{
+     color: var(--main-font);
+     background-color: var(--btn-sky);
+     border-color: var(--btn-sky);
+}
+.main-banner-txt .left-side .video-btn:hover{
+     background-color: #767575;
+     border-color: #767575;
+     color: var(--main-font);
+}
+.item .main-banner-txt{
+     top: 30%;
+}
+/* .item .right-side img{
+     width: 90%;
+} */
+/* .item.sec-slide .right-side img{
+     width: 80%;
+} */
+.item.sec-slide .main-banner-txt .h1{
+     font-size: 45px;
+}
+.item.third-slide .main-banner-txt{
+     left: 0;
+     top: 30%;
+}
+
+/* ------------------------- features ---------------------*/
+
+.feature .feature-cap{
+     font-family: var(--fontpoppins);
+     color: var(--body-txt);
+     /* margin: 25px 150px; */
+}
+.feature .feature-txt p{
+     color: var(--body-txt);
+     font-family: var(--fontpoppins);
+     line-height: 24px;
+}
+
+/* ---------------------------Optimized Performance------------------- */
+
+.performance,
+.tour-catch-img{
+     background-image: url(../img/asset\ 12.jpeg);
+     width: 100%;
+     height:100%;
+     /* background-position: center; */
+     background-size: cover;
+}
+.performance h2,
+.details h2{
+     color: var(--main-font);
+     font-weight: normal;
+     font-size: 38px;
+}
+.performance p,
+.details p{
+     font-family: var(--fontpoppins);
+     color: #c4EFF7;
+     line-height: 23px;
+}
+
+/* <!------------------------- Show Important Details --------------------> */
+
+.details{
+     background-color: #08AAD8;
+}
+.detail-img img{
+     width: 100%;
+     height: auto;
+}
+.details-txt{
+     padding-top: 100px;
+}
+
+/* ------------------------Start Selling Your Product--------------------------- */
+
+.sel-product{
+     background-image: url(../img/asset\ 13.jpeg);
+     width: 100%;
+     height:100%;
+     background-position: center;
+     background-size: cover;
+}
+.sel-product h2{
+     color: #1e1e1e;
+     font-weight: 500;
+     font-size: 38px;
+}
+
+/* --------------common css-------- */
+.sel-product p,
+.tour-sel-product p,
+.tour-feature .tour-fea-txt p,
+.tour-ss p,
+.tour-feature-product p,
+.pricing-feature .pricing-single-card p,
+.pricing-review .pricing--review-tabs p,
+.blog-content .post-caption,
+.blog-content p, .blog-content .comment-response p,
+.contact-form p {
+     color: #7f8186;
+     font-family: var(--fontpoppins);
+     line-height: 24px;
+}
+/* --------------------------------- */
+
+/* -------------footer--------------- */
+
+.site-footer p,
+.tour-feature-product a{
+     font-family: var(--fontpoppins);
+}
+.site-footer p,
+.site-footer ul li > a{
+     color: #91909f;
+     transition: .3s;
+}
+.site-footer ul li > a:hover{
+     color: var(--main-font);
+}
+.site-footer a{
+     font-size: 13px;
+     letter-spacing: 1px;
+}
+.site-footer hr.mt-5{
+     margin-top: 6rem !important;
+}
+
+/* ================================================================
+                    tour
+=================================================================== */
+
+/* ---------------tour banner------------ */
+
+.tour-banner{
+     background-image: url(../img/tour_slider_bg_image.webp);
+     height: 700px;
+     padding-top: 300px;
+     padding-bottom: 220px;
+     background-position: center center;
+     background-size: cover;
+     color: var(--main-font);
+}
+.tour-banner h2{
+     letter-spacing: 20px;
+     font-size: 58px;
+}
+.tour-banner p{
+     letter-spacing: 7px;
+}
+.tour-quark p{
+     color: #7f8186;
+     font-family: var(--fontpoppins);
+     padding: 10px 100px;
+}
+.tour-work .video-frame .video-btn::before{
+     height: 60px;
+     width: 60px;
+     background-color: #000;
+     color: #fff;
+     border-radius: 50%;
+     padding-left: 6px;
+     padding-top: 8px;
+}
+.tour-work .video-frame .video-btn{
+     left: 46%;
+}
+.tour-catch-img{
+     background-image: url(../img/feature_5_image.webp);
+}
+.tour-catch-img p{
+     color: #7f8186;
+}
+
+/* ===================================================================
+                              pricing
+===================================================================== */
+.pricing-banner{
+     background-image: url(../img/asset\ 11.jpeg);
+     width: 100%;
+     background-position: center center;
+     padding-bottom: 173px;
+     padding-top: 173px;
+}
+.pricing-banner h2{
+     letter-spacing: 18px;
+     font-size: 60px;
+}
+.pricing-banner p{
+     font-size: 18px;
+     letter-spacing: 10px;
+}
+.pricing-feature{
+     background-color: #F4F5F6;
+}
+.pricing-feature .pricing-single-card{
+     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.pricing-feature .pricing-single-card ul{
+     list-style: disc;
+}
+.pricing-feature .pricing-single-card a{
+     font-family: var(--fontpoppins);
+     font-size: 12px;
+}
+.pricing-feature .pricing-s2-card{
+     margin-top: -12px;
+}
+.pricing-feature .pricing-s2-card h3{
+     color: var(--title-txt);
+}
+.pricing-feature .pricing-s3-card h3{
+     color: #8152d0;
+}
+.pricing-feature .pricing-s3-card{
+     border-color: #8152d0 !important;
+}
+.pricing-feature .pricing-s3-card .p-last-btn{
+     background-color: #8152d0 !important;
+}
+.pricing-details{
+     background-color: #f4f1f0;
+}
+.pricing-thumbnail{
+     width: 16%;
+}
+.pricing-thumbnail a{
+     width: 89%;
+     padding: 0 0 20%;
+     clear: none;
+}
+.pricing-thumbnail img,
+.pricing-main-img img{
+     width: 100%;
+     box-shadow: none;
+}
+.pricing-main-img{
+     width: 79%;
+}
+.pricing-details .pricing-summary  .quantity input:hover,
+.pricing-details .pricing-summary select:hover{
+     outline: none !important;
+}
+.pricing-details .pricing-summary select{
+     font-size: 12px !important;
+}
+.pricing-details .pricing-summary .quantity button{
+     font-size: 11px !important;
+     background-color: var(--btn-sky);
+     border-color: var(--btn-sky);
+     color: var(--main-font);
+     letter-spacing: 1px;
+     transition: .2s;
+}
+.pricing-details .pricing-summary .quantity button:hover{
+     background-color: #000;
+}
+.pro-meta{
+     font-size: 13px;
+}
+.pricing-review .pricing-tabs li.active a{
+     background-color: #fff;
+     box-shadow: 1px 1px 8px #00000012;
+}
+.pricing-review .pricing-tabs li a{
+     background-color: #f9f9f9;
+     font-size: 14px !important;
+}
+.pricing--review-tabs{
+     margin-top: -112px;
+}
+/* ===================================================================
+                              catlog
+===================================================================== */
+.cat-single-product .pricing-layer{
+     height: 44px;
+     background-color: var(--btn-sky);
+     bottom: 84px;
+     opacity: 0;
+     transition: .3s;
+     cursor: pointer;
+}
+.cat-single-product .pricing-layer a{
+     color: #fff;
+}
+.cat-single-product:hover .pricing-layer{
+     opacity: 1;
+}
+/* ===================================================================
+                              blog
+===================================================================== */
+.blog-post .blog-title a h2:hover{
+     color: #0abede;
+}
+.blog-content .blog-post-meta,
+.blog-content .blog-post-meta a{
+     font-size: 11px;
+     color: #858585;
+     background-color: #f5f5f5;transition: .3s;
+}
+.blog-content .blog-post-meta a:hover{
+     color: #000;
+}
+.blog-content .blog-post button{
+     background-color: #08AAD8;
+     border-color: transparent;
+     font-size: 10px;
+     letter-spacing: 1px;transition: .3s;
+}
+.blog-content .blog-post button:hover{
+     background-color: #000;
+}
+.blog-right-side.side-bar{
+     background-color: #f5f5f5;
+}
+.blog-content .side-bar h6{
+     color: #0abede;
+     letter-spacing: 1px;
+}
+.blog-content .side-bar-search input{
+     font-size: 13px;color: #696b6f;
+}
+.blog-content .side-bar-article ul{
+     list-style: disc;
+     font-family: var(--fontpoppins);
+}
+.blog-content .side-bar-article ul li > a:hover{
+     color: #696b6f !important;
+}
+
+.blog-content .blog-news-tag a,.main-form .main-table a{
+     font-size: 11px;
+}
+.blog-content .blog-news-comments img{
+     width: 50px;height: 50px ;
+}
+.blog-content .comment-body,
+.blog-content .comment-body a,
+.blog-content .comment-body .comment-date{
+     font-family: var(--fontpoppins);
+     font-size: 12px;
+}
+.blog-content .comment-body a{
+     font-size: 15px;
+}
+.blog-content .comment-response textarea, .blog-content input,
+.contact-form input ,.contact-form textarea{
+     background-color: #f5f5f5;
+}
+.blog-content .comment-response input{
+     width: 55%;
+     height: 50px;
+}
+.blog-content .comment-response .comment-submit-btn{
+     width: auto;
+     background-color: #46445f;line-height: 3px;transition: .3s;
+}
+.blog-content .comment-response .comment-submit-btn:hover{
+     background-color: #060326;
+}
+.about-us p,ul,
+.main-form .cart-total table  {
+     font-family: var(--fontpoppins);
+}
+.about-us ul{
+     list-style-type: disc;
+}
+.map .map-btn a{
+     font-size: 12px;border-radius: 0;color: #0abede;
+}
+.map .map-btn a:hover{
+     text-decoration: underline;
+}
+.contact-form input{
+     width: 60%;
+     height: 60px;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+     color: #96979b;
+}
+
+/* -----------------add to cart------------- */
+.main-form .main-table img{
+     width: 32px;
+}
+.main-form .main-table th, .main-form .main-table td,
+.main-form .cart-total td,
+.main-form .cart-total th{
+     border: 2px solid rgba(0,0,0,.1);
+     padding: 6px 12px;
+}
+.main-form .pro-title{
+     color: var(--title-txt);
+     font-size: 14px !important;
+}
+.main-form .numbers{
+     width: 70px;
+     height: 50px;
+     background-color: rgba(231, 231, 231, 0.72);
+}
+.main-form .update{
+     letter-spacing: 2px;
+     font-size: 11px;
+}
+.main-form .cart-total th{
+     background-color: #F7F7F7;
+}
+.main-form .cart-total .total-btns a{
+     background-color: #0abede;
+     font-size: 12px;
+}

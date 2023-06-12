@@ -1,0 +1,246 @@
+@media screen and (max-width:425px) {
+
+     #main-banner .item .main-banner-txt .left-side{
+          width: 100%;
+     }
+     #main-banner .item .main-banner-txt .left-side .h1{
+          font-size: 35px;
+     }
+     #main-banner .item .main-banner-txt{
+          left: 100px;
+          /* width: 100%; */
+          /* right: 0; */
+     }
+     #main-banner .left-side .b-title,
+     #main-banner .left-side span{
+          font-size: 30px !important;
+     }
+     #main-banner .banner-caption{
+          font-size: 11px;
+          color: #ccc;
+     }
+     .feature .main-features .vr,
+     .feature .main-features hr{
+          display: none;
+     }
+     .feature .first-line{
+          margin: 0 !important;
+     }
+     .feature .break-down,
+     .feature .increase-con,
+     .feature .add-video{
+          padding-bottom: 10px;
+          padding-top: 10px;
+     }
+     
+     .performance{
+          background-size: cover;
+          background-position: center;
+     }
+     .performance div{
+          width: 100% !important;
+     }
+
+     .details .detail-img{
+          width: 100% !important;
+     }
+     .details .details-txt{
+          width: 100%  !important;
+          padding-bottom: 0;
+          padding-top: 50px !important;
+     }
+     .sel-product div{
+          /* text-align: center; */
+          width: 100% !important;
+     }
+     .tour-banner{
+          padding-left: 5px;
+     }
+     .tour-banner h2{
+          font-size: 35px;
+          letter-spacing: 4px;
+     }
+     .tour-banner p{
+          letter-spacing: 0;
+     }
+     .tour-sel-product .left-content,
+     .tour-sel-product .right-content{
+          width: 100% !important;
+     }
+     .tour-sel-product .right-content{
+          padding-left: 20px;
+     }
+     .pricing-feature .pricing-single-card{
+          margin-bottom: 20px;
+     }
+     .pricing-feature .pricing-s2-card{
+          margin-bottom: 10px;
+     }
+     .pricing-banner h2{
+          font-size: 30px;
+          letter-spacing: 6px;
+     }
+     .pricing-banner p{
+          font-size: 12px;
+          letter-spacing: 0;
+     }
+     .cat-single-product{
+          margin-bottom: 10px;
+     }
+     .pricing-details .pricing-image-gallery,
+     .pricing-details .pricing-summary{
+          width: 100% !important;
+     }
+     .blog-content .comment-response textarea{
+          width: 100%;
+     }
+     .main-form .main-table .mob-dev-th,
+     .main-form .main-table .mob-dev-td{
+          display: none;
+     }
+     .main-form .cart-total{
+          width: 100% !important;
+     }
+}
+
+@media (min-width: 576px) and (max-width: 767px)  {
+
+     #logo img{
+          max-width: 100%;
+     }
+
+}
+
+@media (min-width:768px) {
+
+     #logo img {
+          max-width: 100%;
+     }
+     .performance{
+          background-size: cover;
+          background-position: center center;
+     }
+}
+
+@media screen and (max-width:768px) {
+     
+     #main-banner .item .main-banner-txt .left-side .h1{
+          font-size: 36px !important;
+     }
+     #main-banner .item .main-banner-txt{
+          left: 60px;
+     }
+     #main-banner .banner-caption{
+          font-size: 11px;
+          color: #ccc;
+     }
+     #main-banner.owl-theme .owl-nav{
+          display: block;
+     }
+     #main-banner .owl-nav .owl-prev,
+     #main-banner .owl-nav .owl-next{
+          left: 20px;
+     }
+     #main-banner .owl-nav .owl-next{
+          left: auto;
+          right: 20px;
+     }
+     #main-banner .item.third-slide .main-banner-txt{
+          left: 0 !important;
+     }     
+     .details .details-txt{
+          padding-top: 0;
+     }
+     .tour-work .video-frame img{
+          width: 100%;
+          background-size: cover;
+     }
+     .contact-form textarea{
+          width: 90%;
+     }
+     #main-banner .item.sec-slide .right-side img{
+          scale: 1.1;
+     }
+}
+
+@media screen and (max-width:992px) {
+
+     .lap-menu
+     {
+          display: none !important;
+     }
+     #logo img{
+          max-width: 100%;
+     }
+     .tablate-menu{
+          z-index: 9999;
+          display: block ;
+          top: 100% !important;
+          left: 0 !important;
+          width: 100%;
+          background-color: #f3f3f3;
+          border-top: 1px solid #a2a2a2 !important;
+     }
+     
+     .tablate-menu li a{
+          display: block;
+          color: #23272c;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 12px;
+          padding:10px 25px  !important;
+          margin: 0;
+          border-bottom: 1px solid rgba(0,0,0,.1);
+     }
+     .tablate-menu li:hover .tablate-sub-menu{
+          background-color: #e6e6e6;
+     }
+     .tablate-menu-blog i{
+          right: 13px;
+     }
+     .sidebar{
+          color: #000;
+          background-color: #fff ;
+     }
+     .cart{
+          color: #bfbebe;
+     }
+     
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+
+    .nav-bar li a{
+          font-size: 13px;
+          margin: 0 13px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+     
+    #main-banner .item .main-banner-txt .left-side .h1{
+          font-size: 50px;
+     }
+     #main-banner .item .main-banner-txt .right-side img{
+          width: 70%;
+     }
+     #main-banner .item.sec-slide .right-side img{
+          width: 100%;
+     }
+     .main-banner-txt .left-side a{
+          font-size: 11px;
+          padding: 13px 15px !important;
+     }
+     .banner-btn{
+          margin-top: 15px !important;
+     }
+
+     .feature .main-features img{
+          height: fit-content;
+     }
+     .tour-feature-product img{
+          /* object-fit: cover; */
+          width: 100%;
+     }
+}

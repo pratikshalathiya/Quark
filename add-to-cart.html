@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Your Shopping Cart - quark</title>
+
+     <!-- favicon icon -->
+     <link rel="icon" href="img/favicon.png">
+
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/bootstrap-icons.css">
+
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="css/all.min.css">
+     
+     <!-- stylesheet -->
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+     
+     <!-- header -->
+
+     <header class="line" id="Header">
+          <div class="container py-3 ">
+               <div class="row justify-content-between align-items-center position-relative">
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-5" id="logo">
+                         <a href="index.html">
+                           <img src="img/asset 0.png" alt="">
+                         </a>
+                    </div>
+                    <div class="col-xl-9 col-lg-10 col-auto nav-bar">
+                         <ul class="text-uppercase d-flex justify-content-end lap-menu">
+                              <li>
+                                   <a href="index.html" class="active">home</a>
+                              </li>
+                              <li>
+                                   <a href="tour.html">tour</a>
+                              </li>
+                              <li>
+                                   <a href="pricing.html">pricing</a>
+                              </li>
+                              <li>
+                                   <a href="catalog.html">catalog</a>
+                              </li>
+                              <li>
+                                   <a href="blog.html">blog</a>
+                                   <ul class="sub-menu position-absolute m-3 top-100 border-top py-2">
+                                        <li><a href="blog.html"> Blog</a></li>
+                                        <li><a href="artical.html">Article</a></li>
+                                    </ul>
+                              </li>
+                              <li>
+                                   <a href="about-us.html">about us</a>
+                              </li>
+                              <li>
+                                   <a href="contact.html">contact</a>
+                              </li>
+                              <li>
+                                   <a href="index.html" class="nav-btn py-2 px-3">purchase</a>
+                              </li>
+                                   <div class="vr text-light"></div>
+                              <li>
+                                   <a href="add-to-cart.html"><i class="bi bi-cart-fill fs-6"></i></a>
+                              </li>
+                         </ul>
+
+                         <div class="d-xl-none d-lg-none d-flex align-items-center gap-2">
+                              <i class="fa-solid fa-bars sidebar p-2 fs-6"></i>
+                              <a href="add-to-cart.html"><i class="bi bi-cart-fill fs-6 cart"></i></a>
+                         </div>
+
+                         <ul class="text-uppercase tablate-menu position-absolute">
+                              <li>
+                                   <a href="index.html">home</a>
+                              </li>
+                              <li>
+                                   <a href="tour.html">tour</a>
+                              </li>
+                              <li>
+                                   <a href="pricing.html">pricing</a>
+                              </li>
+                              <li>
+                                   <a href="catalog.html">catalog</a>
+                              </li>
+                              <li class="align-items-center position-relative tablate-menu-blog">
+                                   <a href="blog.html">blog</a><i class="fa-solid fa-angle-right tab-right-icon float-end p-3 top-0 position-absolute"></i>
+                                   <ul class="tablate-sub-menu border-top">
+                                        <li><a href="blog.html"> Blog</a></li>
+                                        <li><a href="artical.html">Article</a></li>
+                                    </ul>
+                              </li>
+                              <li>
+                                   <a href="about-us.html">about us</a>
+                              </li>
+                              <li>
+                                   <a href="contact.html">contact</a>
+                              </li>
+                         </ul>
+                    </div>    
+               </div>
+          </div>
+     </header>
+
+     <!-- End header -->
+     
+     <main>
+
+          <!-- banner -->
+
+          <section class="pricing-banner text-light">
+               <div class="text-center">
+                    <h2 class="">YOUR SHOPPING CART</h2>
+                    <p class="fw-lighter pt-3">CALL US +0 1234 567890</p>
+               </div>
+          </section>
+
+          <!-- End banner -->
+
+          <!-- form of table -->
+
+          <section class="main-form bgWhite">
+               <div class="container pt-5 pb-5">
+                    <form action="">
+                         <table class="main-table border border-2 w-100">
+                              <thead>
+                                   <tr class="text-secondary">
+                                        <th class="mob-dev-th"></th>
+                                        <th class="mob-dev-th"></th>
+                                        <th>Product Name</th>
+                                        <th>Unit Price</th>
+                                        <th>Quantity</th>
+                                        <th>Total</th>
+                                   </tr>
+                              </thead>
+                              <tbody>
+                                   <tr>
+                                        <td class="mob-dev-td">
+                                             <a href="#"><i class="fa-solid fa-xmark text-white bg-danger p-1 rounded"></i></a>
+                                        </td>
+                                        <td class="mob-dev-td">
+                                             <a href="#">
+                                                  <img src="img/iphone1_large.jpg" alt="" class="">
+                                             </a>
+                                        </td>
+                                        <td>
+                                             <a href="#" class="pro-title">Quark Pro</a>
+                                             <dl class="d-flex text-secondary">
+                                                  <dt class="fw-normal">Device:</dt>
+                                                  <dd class=""><p>Mobile</p></dd>
+                                             </dl>
+                                        </td>
+                                        <td>
+                                             <span class="text-secondary">$25.00</span>
+                                        </td>
+                                        <td>
+                                             <input type="number" name="num" id="" class="border-0 ps-4 numbers" value="3">
+                                        </td>
+                                        <td>
+                                             <span class="text-secondary">$75.00</span>
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td colspan="6" class="text-end">
+                                             <input type="submit" value="UPDATE CART" class="bg-secondary border-0 update text-light fw-bold py-2 px-4">
+                                        </td>
+                                   </tr>
+                              </tbody>
+                         </table>
+                    </form>
+                    <div class="cart-total pt-4 w-50 ms-md-auto">
+                         <h3 class="pb-1">Cart Totals</h3>
+                         <table class="text-secondary border border-2 fw-bolder">
+                              <tbody>
+                                   <tr class="">
+                                        <th colspan="2">Shipping, taxes, and discounts will be calculated at checkout.</th>
+                                   </tr>
+                                   <tr>
+                                        <th class="w-50">Subtotal</th>
+                                        <td>
+                                             <strong>$75.00</strong>
+                                        </td>
+                                   </tr>
+                              </tbody>
+                         </table>
+                         <div class="pt-4 total-btns pb-3">
+                              <a href="#" class="btn text-light rounded-0 py-3 px-4 text-capitalize">Continue Shopping</a>
+                              <a href="#" class="btn text-light rounded-0 py-3 px-4 text-capitalize">Checkout</a>
+                         </div>
+                    </div>
+               </div>
+          </section>
+
+          <!-- End form of table -->
+
+     </main>
+
+          <!-- Footer -->
+
+          <footer>
+               <section class="bgBlue site-footer">
+                    <div class="container spacer text-center">
+                         <h2>Get started today.</h2>
+                         <p class="pt-4 pb-4">Available for iOS, Android, Mac, Linux, and Windows</p>
+                         <ul class="social-icon d-flex justify-content-center">
+                              <li><a href="#" class="px-2 fs-6"><i class="bi bi-phone"></i></a></li>
+                              <li><a href="#" class="px-2 fs-6"><i class="bi bi-robot"></i></a></li>
+                              <li><a href="#" class="px-2 fs-6"><i class="bi bi-apple"></i></a></li>
+                              <li><a href="#" class="px-2 fs-6"><i class="fa-brands fa-linux"></i></a></li>
+                              <li><a href="#" class="px-2 fs-6"><i class="bi bi-windows"></i></a></li>
+                              <li><a href="#" class="px-2 fs-6"><i class="bi bi-twitter"></i></a></li>
+                              <li><a href="#" class="px-2 fs-6"><i class="fa-brands fa-facebook-f"></i></a></li>
+                              <li><a href="#" class="px-2 fs-6"><i class="fa-brands fa-square-pinterest"></i></a></li>
+                              <li><a href="#" class="px-2 fs-6"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                              <li><a href="#" class="px-2 fs-6"><i class="bi bi-instagram"></i></a></li>
+                         </ul>
+                         <div class="mt-5">
+                              <a href="#" class="nav-btn py-3 px-5">Purchase Quark</a>
+                         </div>
+                         <hr class="mt-5">
+                         <div class="copyright pt-3">
+                              <p>2016 All Rights Reserved. Developed by MassTechnologist</p>
+                         </div>
+                    </div>
+               </section>
+          </footer> 
+     
+          <!--  End Footer -->
+
+          <script src="js/jquery-3.6.3.min.js"></script>
+          <!-- Bootstrap -->
+          <script src="js/bootstrap.bundle.min.js"></script>
+          <script src="js/owl.carousel.min.js"></script>
+          <script src="js/wow.min.js"></script>
+          <script src="js/script.js "></script>
+</body>
+</html>
